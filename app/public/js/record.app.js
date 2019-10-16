@@ -3,6 +3,9 @@ var patientRecordsApp = new Vue({
   data: {
     patients: [],
     recordPatient: {}
+    filter: {
+      sab: ''
+    }
   },
   methods: {
     fetchPatients() {
